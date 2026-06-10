@@ -39,16 +39,16 @@ No API key is required - the game runs fully client-side. (`.env.example` lists 
 
 ```
 .
-|-- LICENSE                 # MIT (repository), see Attribution
-|-- README.md               # this file
-|-- index.html              # Vite entry -> src/main.tsx
-|-- package.json
-|-- vite.config.ts
-|-- src/
-|   |-- App.tsx             # app shell, Web Speech wiring, settings/stats
-|   |-- components/         # JumpGamePlay, VoiceStatus, DictionaryBar
-|   `-- lib/                # audio.ts (Web Audio), vocabularies.ts (word matching)
-`-- reports/week2/          # Assignment 2 deliverables (see index)
+├── LICENSE                 # MIT (repository), see Attribution
+├── README.md               # this file
+├── index.html              # Vite entry -> src/main.tsx
+├── package.json
+├── vite.config.ts
+├── src/
+│   ├── App.tsx             # app shell, Web Speech wiring, settings/stats
+│   ├── components/         # JumpGamePlay, VoiceStatus, DictionaryBar
+│   └── lib/                # audio.ts (Web Audio), vocabularies.ts (word matching)
+└── reports/week2/          # Assignment 2 deliverables (see index)
 ```
 
 ## Attribution
