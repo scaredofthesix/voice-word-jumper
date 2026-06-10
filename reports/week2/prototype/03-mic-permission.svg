@@ -13,13 +13,13 @@
     <path d="M 616 284 a 24 24 0 0 0 48 0" fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round"/>
     <rect x="637" y="306" width="6" height="12" fill="#FFFFFF"/>
     <text x="640" y="395" font-family="Inter" font-size="30" font-weight="700" fill="#1B2A4A" text-anchor="middle">We need your microphone!</text>
-    <text x="640" y="432" font-family="Inter" font-size="20" fill="#8C949F" text-anchor="middle">The game listens to your voice —</text>
+    <text x="640" y="432" font-family="Inter" font-size="20" fill="#8C949F" text-anchor="middle">The game listens to your voice -</text>
     <text x="640" y="458" font-family="Inter" font-size="20" fill="#8C949F" text-anchor="middle">that is how you jump!</text>
     <g id="btn-allow-mic">
       <rect x="465" y="486" width="350" height="64" rx="32" fill="#27AE60"/>
       <text x="640" y="527" font-family="Inter" font-size="24" font-weight="700" fill="#FFFFFF" text-anchor="middle">Allow microphone  🎤</text>
     </g>
     <text x="640" y="582" font-family="Inter" font-size="16" fill="#EB5757" text-anchor="middle">Blocked the mic by mistake? Ask a parent to enable it</text>
-    <text x="640" y="604" font-family="Inter" font-size="16" fill="#EB5757" text-anchor="middle">in Chrome — the game shows a help screen.</text>
+    <text x="640" y="604" font-family="Inter" font-size="16" fill="#EB5757" text-anchor="middle">in Chrome - the game shows a help screen.</text>
   </g>
 </svg>

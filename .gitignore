@@ -8,7 +8,7 @@ dist/
 build/
 .vite/
 
-# Environment / secrets — never commit real credentials
+# Environment / secrets - never commit real credentials
 .env
 .env.local
 .env.*.local

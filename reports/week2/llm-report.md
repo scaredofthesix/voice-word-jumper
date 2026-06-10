@@ -1,9 +1,9 @@
-# LLM Usage Report — Week 2 (Team 40)
+# LLM Usage Report - Week 2 (Team 40)
 
 This report describes how AI/LLM tools were used during Assignment 2.
 
 ## Tools used
-- **Claude Code (Anthropic)** — used to plan Assignment 2, scaffold the repository structure, and draft the Week 2 report documents (user stories, report skeletons).
+- **Claude Code (Anthropic)** - used to plan Assignment 2, scaffold the repository structure, and draft the Week 2 report documents (user stories, report skeletons).
 
 ## How they were used
 - Generated the Assignment 2 phased action plan and current-state assessment.
@@ -14,4 +14,4 @@ This report describes how AI/LLM tools were used during Assignment 2.
 - All AI-generated content is reviewed, edited, and approved by the team before submission.
 - Customer-facing decisions (story approval, priorities, MVP v1 scope) are made by the team and the customer, not the LLM.
 
-_TODO — update with any additional tools/usage as the assignment progresses._
+_TODO - update with any additional tools/usage as the assignment progresses._

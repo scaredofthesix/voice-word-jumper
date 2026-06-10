@@ -1,6 +1,6 @@
-# Voice Word Jumper — Team 40
+# Voice Word Jumper - Team 40
 
-A browser-based **voice-controlled English word game for children**. The child speaks the target word to make the character jump to the matching platform — **voice is the only controller**. Part of a planned platform of voice-controlled word games.
+A browser-based **voice-controlled English word game for children**. The child speaks the target word to make the character jump to the matching platform - **voice is the only controller**. Part of a planned platform of voice-controlled word games.
 
 - **Live MVP v0 (Google Cloud Run):** https://voice-word-jumper-316095696419.europe-west2.run.app/
 - **AI Studio app:** https://ai.studio/apps/fc8f058b-d06c-43b9-8ede-540d02401714
@@ -33,22 +33,22 @@ npm run build
 npm run preview
 ```
 
-No API key is required — the game runs fully client-side. (`.env.example` lists an optional `GEMINI_API_KEY` inherited from the AI Studio template, but it is **not** used by the current game code.) Allow microphone access when prompted; voice recognition needs a secure context (`localhost` or HTTPS).
+No API key is required - the game runs fully client-side. (`.env.example` lists an optional `GEMINI_API_KEY` inherited from the AI Studio template, but it is **not** used by the current game code.) Allow microphone access when prompted; voice recognition needs a secure context (`localhost` or HTTPS).
 
 ## Repository layout
 
 ```
 .
-├── LICENSE                 # MIT (repository), see Attribution
-├── README.md               # this file
-├── index.html              # Vite entry → src/main.tsx
-├── package.json
-├── vite.config.ts
-├── src/
-│   ├── App.tsx             # app shell, Web Speech wiring, settings/stats
-│   ├── components/         # JumpGamePlay, VoiceStatus, DictionaryBar
-│   └── lib/                # audio.ts (Web Audio), vocabularies.ts (word matching)
-└── reports/week2/          # Assignment 2 deliverables (see index)
+|-- LICENSE                 # MIT (repository), see Attribution
+|-- README.md               # this file
+|-- index.html              # Vite entry -> src/main.tsx
+|-- package.json
+|-- vite.config.ts
+|-- src/
+|   |-- App.tsx             # app shell, Web Speech wiring, settings/stats
+|   |-- components/         # JumpGamePlay, VoiceStatus, DictionaryBar
+|   `-- lib/                # audio.ts (Web Audio), vocabularies.ts (word matching)
+`-- reports/week2/          # Assignment 2 deliverables (see index)
 ```
 
 ## Attribution

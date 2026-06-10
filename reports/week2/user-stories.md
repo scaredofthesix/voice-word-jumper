@@ -1,14 +1,14 @@
-# User Stories — Voice Word Games (Team 40)
+# User Stories - Voice Word Games (Team 40)
 
-Product: a browser-based platform of **voice-controlled English word games for children**. A child must pronounce a target word correctly to trigger an in-game action — **voice is the only controller**, because children skip pronunciation tasks whenever another way to finish exists. Flagship game: **Voice Word Jumper** (currently Chrome-only).
+Product: a browser-based platform of **voice-controlled English word games for children**. A child must pronounce a target word correctly to trigger an in-game action - **voice is the only controller**, because children skip pronunciation tasks whenever another way to finish exists. Flagship game: **Voice Word Jumper** (currently Chrome-only).
 
-> Stable IDs (`US-01`, `US-02`, …) must never be changed, reused, or reassigned. Removed stories keep their IDs and are preserved below. Requirement Status (Active / Removed) is independent of MoSCoW priority.
+> Stable IDs (`US-01`, `US-02`, ...) must never be changed, reused, or reassigned. Removed stories keep their IDs and are preserved below. Requirement Status (Active / Removed) is independent of MoSCoW priority.
 
 ## Roles / personas
 
-- **Child learner** — primary user, roughly ages 6–10, learning English pronunciation through play. Cannot read long instructions; motivated by immediate, fun feedback.
-- **Parent** — sets up the game for the child, cares about safety and visible learning progress.
-- **Teacher** — uses the games in or after class, may want curated vocabulary aligned to lessons.
+- **Child learner** - primary user, roughly ages 6-10, learning English pronunciation through play. Cannot read long instructions; motivated by immediate, fun feedback.
+- **Parent** - sets up the game for the child, cares about safety and visible learning progress.
+- **Teacher** - uses the games in or after class, may want curated vocabulary aligned to lessons.
 
 ---
 
@@ -190,13 +190,13 @@ Reason: Removed as a candidate requirement during Assignment 2. It requires real
 
 ## Initial proposed MVP v1 scope
 
-A small, playable core loop selected **only from Must Have** stories. It spans all four prototype screens (Home → game selection → main game with microphone interaction → results):
+A small, playable core loop selected **only from Must Have** stories. It spans all four prototype screens (Home -> game selection -> main game with microphone interaction -> results):
 
-- **US-01** — Start a game from the home screen
-- **US-02** — Choose which word game to play
-- **US-04** — Pronounce a word to trigger the in-game action (core mic interaction)
-- **US-06** — Get immediate feedback on each attempt
-- **US-07** — See my results at the end of a round
+- **US-01** - Start a game from the home screen
+- **US-02** - Choose which word game to play
+- **US-04** - Pronounce a word to trigger the in-game action (core mic interaction)
+- **US-06** - Get immediate feedback on each attempt
+- **US-07** - See my results at the end of a round
 
 Supporting Must-Have stories **US-03** (see the target word) and **US-05** (microphone permission) are realized as elements and states *within* the main game screen of the same prototype, so the prototype covers them without listing them as separate scope items.
 

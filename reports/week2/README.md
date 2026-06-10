@@ -1,17 +1,17 @@
-# Assignment 2 — Week 2 Report (Team 40)
+# Assignment 2 - Week 2 Report (Team 40)
 
-**Project:** Voice Word Games — a browser-based platform of voice-controlled English word games for children (flagship: *Voice Word Jumper*).
+**Project:** Voice Word Games - a browser-based platform of voice-controlled English word games for children (flagship: *Voice Word Jumper*).
 **License:** [MIT](../../LICENSE)
 
 > This file is the public index for the Assignment 2 submission. Substantive content lives in the dedicated files linked below.
 
 ## User stories & MVP v1 scope
-- [User stories](./user-stories.md) — ≥10 stories with stable IDs, MoSCoW priorities, and the initial proposed MVP v1 scope.
+- [User stories](./user-stories.md) - 10+ stories with stable IDs, MoSCoW priorities, and the initial proposed MVP v1 scope.
 
 ## Prototype & interface artifacts (graphical product)
-- Interactive prototype (Figma): _TODO — public view-only link after assembly_
+- Interactive prototype (Figma): _TODO - public view-only link after assembly_
 - Prototype screen sources + 5-minute Figma assembly guide: [./prototype/](./prototype/README.md) (6 SVG screens, drag-and-drop into the team Figma file).
-- Screens covered: Home → game selection → main game (microphone interaction) → results.
+- Screens covered: Home -> game selection -> main game (microphone interaction) -> results.
 
 ## MVP v0
 - [MVP v0 report](./mvp-v0-report.md)
@@ -22,12 +22,12 @@
 
 ## Workflow & link checking
 - Minimal PR template: [.github/PULL_REQUEST_TEMPLATE.md](../../.github/PULL_REQUEST_TEMPLATE.md)
-- Reviewed PRs: _TODO — link(s) once the remote repo exists and a PR is reviewed_
+- Reviewed PRs: _TODO - link(s) once the remote repo exists and a PR is reviewed_
 - Lychee configuration: [lychee.toml](../../lychee.toml) · Workflow: [.github/workflows/links.yml](../../.github/workflows/links.yml) · Latest successful protected-branch run: _TODO link_
 - **Excluded Lychee links + justification:**
-  - `localhost` / `127.0.0.1` — dev-only URLs not reachable from CI.
-  - `https://ai.studio/...` — AI Studio app pages require an authenticated Google session and redirect anonymous CI runners; **manually verified in a browser** (loads the Voice Word Jumper app).
-  - `https://www.figma.com/design/...` — Figma returns 403 Forbidden to anonymous clients until public link sharing is enabled on the file; **manually verified in the Figma editor** (the team prototype file opens).
+  - `localhost` / `127.0.0.1` - dev-only URLs not reachable from CI.
+  - `https://ai.studio/...` - AI Studio app pages require an authenticated Google session and redirect anonymous CI runners; **manually verified in a browser** (loads the Voice Word Jumper app).
+  - `https://www.figma.com/design/...` - Figma returns 403 Forbidden to anonymous clients until public link sharing is enabled on the file; **manually verified in the Figma editor** (the team prototype file opens).
 
 ## Customer review
 - [Customer meeting summary](./customer-meeting-summary.md)
