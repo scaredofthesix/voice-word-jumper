@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="800" viewBox="0 0 1280 800">
+  <rect width="1280" height="800" fill="#CCEBFF"/>
+  <text x="24" y="34" font-family="Inter" font-size="14" fill="#8C949F">06 · Results (US-07)</text>
+  <ellipse cx="180" cy="110" rx="75" ry="32" fill="#FFFFFF"/>
+  <ellipse cx="1090" cy="95" rx="85" ry="36" fill="#FFFFFF"/>
+  <rect y="700" width="1280" height="100" fill="#27AE60"/>
+  <circle cx="320" cy="240" r="9" fill="#FFB100"/>
+  <circle cx="960" cy="220" r="7" fill="#EB5757"/>
+  <circle cx="380" cy="520" r="7" fill="#2F80ED"/>
+  <circle cx="920" cy="540" r="9" fill="#FFB100"/>
+  <g id="card-results">
+    <rect x="390" y="120" width="500" height="540" rx="32" fill="#FFFFFF"/>
+    <text x="640" y="210" font-family="Inter" font-size="36" font-weight="700" fill="#1B2A4A" text-anchor="middle">Round complete! 🎉</text>
+    <text x="640" y="300" font-family="Inter" font-size="56" text-anchor="middle">⭐ ⭐ ⭐</text>
+    <text x="640" y="412" font-family="Inter" font-size="76" font-weight="700" fill="#2F80ED" text-anchor="middle">8 / 10</text>
+    <text x="640" y="452" font-family="Inter" font-size="22" fill="#8C949F" text-anchor="middle">words said correctly</text>
+    <g id="btn-play-again">
+      <rect x="465" y="496" width="350" height="64" rx="32" fill="#FFB100"/>
+      <text x="640" y="537" font-family="Inter" font-size="24" font-weight="700" fill="#FFFFFF" text-anchor="middle">Play again  ▶</text>
+    </g>
+    <g id="btn-results-home">
+      <rect x="465" y="576" width="350" height="56" rx="28" fill="#EDF1F5"/>
+      <text x="640" y="612" font-family="Inter" font-size="22" font-weight="700" fill="#1B2A4A" text-anchor="middle">🏠  Home</text>
+    </g>
+  </g>
+</svg>

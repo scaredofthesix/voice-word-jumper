@@ -9,7 +9,8 @@
 - [User stories](./user-stories.md) — ≥10 stories with stable IDs, MoSCoW priorities, and the initial proposed MVP v1 scope.
 
 ## Prototype & interface artifacts (graphical product)
-- Interactive prototype (Figma): _TODO — public view-only link_
+- Interactive prototype (Figma): _TODO — public view-only link after assembly_
+- Prototype screen sources + 5-minute Figma assembly guide: [./prototype/](./prototype/README.md) (6 SVG screens, drag-and-drop into the team Figma file).
 - Screens covered: Home → game selection → main game (microphone interaction) → results.
 
 ## MVP v0
