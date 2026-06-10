@@ -21,8 +21,9 @@
 
 ## Workflow & link checking
 - Minimal PR template: [.github/PULL_REQUEST_TEMPLATE.md](../../.github/PULL_REQUEST_TEMPLATE.md)
-- Reviewed PRs: _TODO — link(s) once the remote repo exists and a PR is reviewed_
-- Lychee configuration: [lychee.toml](../../lychee.toml) · Workflow: [.github/workflows/links.yml](../../.github/workflows/links.yml) · Latest successful protected-branch run: _TODO link_
+- PRs through the protected-branch workflow: [PR #1 — ci: add missing Lychee link-check workflow](https://github.com/scaredofthesix/voice-word-jumper/pull/1) (Lychee check passed, squash-merged). Reviewed PR with teammate review: _TODO — link once a teammate reviews an open PR_.
+- Default branch `main` is protected: merges only via pull request, force pushes and branch deletion disabled.
+- Lychee configuration: [lychee.toml](../../lychee.toml) · Workflow: [.github/workflows/links.yml](../../.github/workflows/links.yml) · Latest successful protected-branch run: [run 27288376055](https://github.com/scaredofthesix/voice-word-jumper/actions/runs/27288376055)
 - **Excluded Lychee links + justification:**
   - `localhost` / `127.0.0.1` — dev-only URLs not reachable from CI.
   - `https://ai.studio/...` — AI Studio app pages require an authenticated Google session and redirect anonymous CI runners; **manually verified in a browser** (loads the Voice Word Jumper app).
