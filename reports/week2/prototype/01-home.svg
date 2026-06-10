@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="800" viewBox="0 0 1280 800">
+  <rect width="1280" height="800" fill="#CCEBFF"/>
+  <text x="24" y="34" font-family="Inter" font-size="14" fill="#8C949F">01 · Home (US-01)</text>
+  <ellipse cx="170" cy="120" rx="75" ry="32" fill="#FFFFFF"/>
+  <ellipse cx="215" cy="98" rx="48" ry="36" fill="#FFFFFF"/>
+  <ellipse cx="1060" cy="90" rx="90" ry="38" fill="#FFFFFF"/>
+  <ellipse cx="1115" cy="64" rx="55" ry="40" fill="#FFFFFF"/>
+  <ellipse cx="680" cy="170" rx="60" ry="26" fill="#FFFFFF"/>
+  <rect y="700" width="1280" height="100" fill="#27AE60"/>
+  <text x="640" y="270" font-family="Inter" font-size="72" font-weight="700" fill="#1B2A4A" text-anchor="middle">Voice Word Games</text>
+  <text x="640" y="340" font-family="Inter" font-size="32" font-weight="600" fill="#1F5AB3" text-anchor="middle">Say the word. Win the game!</text>
+  <g>
+    <circle cx="470" cy="510" r="60" fill="#FFB100"/>
+    <ellipse cx="448" cy="498" rx="9" ry="12" fill="#1B2A4A"/>
+    <ellipse cx="492" cy="498" rx="9" ry="12" fill="#1B2A4A"/>
+    <rect x="448" y="528" width="44" height="16" rx="8" fill="#1B2A4A"/>
+  </g>
+  <g id="btn-home-play">
+    <rect x="560" y="455" width="300" height="96" rx="48" fill="#FFB100"/>
+    <text x="710" y="517" font-family="Inter" font-size="40" font-weight="700" fill="#FFFFFF" text-anchor="middle">▶  PLAY</text>
+  </g>
+  <text x="640" y="758" font-family="Inter" font-size="20" fill="#FFFFFF" text-anchor="middle">For kids 6–10  ·  Works best in Chrome  ·  🎤 voice is the controller</text>
+</svg>
