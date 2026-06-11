@@ -1,9 +1,9 @@
-# Customer Meeting Summary — Assignment 2 (Team 40)
+# Customer Meeting Summary - Assignment 2 (Team 40)
 
-> Draft skeleton — completed after the review meeting with the customer (Danila Danko).
+> Draft skeleton - completed after the review meeting with the customer (Danila Danko).
 
 - **Date:** _TODO_
-- **Participants / roles:** Customer — Danila Danko; Team 40 — _attendees_.
+- **Participants / roles:** Customer - Danila Danko; Team 40 - _attendees_.
 - **Artifacts demonstrated:** user stories & MoSCoW priorities, initial proposed MVP v1 scope, prototype & interface artifacts.
 
 ## MIT-license consent
@@ -31,4 +31,4 @@ _TODO_
 - [ ] Initial proposed MVP v1 scope
 
 ## Resulting changes
-_TODO — link to affected stories / prototype screens / artifacts._
+_TODO - link to affected stories / prototype screens / artifacts._

@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="800" viewBox="0 0 1280 800">
+  <rect width="1280" height="800" fill="#CCEBFF"/>
+  <text x="24" y="780" font-family="Inter" font-size="14" fill="#1B2A4A">05 · Game - success feedback (US-06)</text>
+  <ellipse cx="200" cy="150" rx="70" ry="30" fill="#FFFFFF"/>
+  <ellipse cx="1080" cy="120" rx="85" ry="36" fill="#FFFFFF"/>
+  <rect y="700" width="1280" height="100" fill="#27AE60"/>
+  <g id="hud">
+    <rect x="40" y="32" width="140" height="52" rx="26" fill="#FFFFFF"/>
+    <text x="110" y="66" font-family="Inter" font-size="24" font-weight="700" fill="#1B2A4A" text-anchor="middle">⭐ 1</text>
+    <rect x="200" y="32" width="210" height="52" rx="26" fill="#FFFFFF"/>
+    <text x="305" y="65" font-family="Inter" font-size="22" fill="#1F5AB3" text-anchor="middle">Space words</text>
+    <g id="pill-heard">
+      <rect x="1010" y="32" width="230" height="52" rx="26" fill="#FFFFFF" stroke="#27AE60" stroke-width="3"/>
+      <text x="1125" y="65" font-family="Inter" font-size="22" font-weight="700" fill="#27AE60" text-anchor="middle">✓ Heard: rocket</text>
+    </g>
+  </g>
+  <g id="banner-success">
+    <rect x="365" y="290" width="550" height="100" rx="28" fill="#27AE60"/>
+    <text x="640" y="353" font-family="Inter" font-size="42" font-weight="700" fill="#FFFFFF" text-anchor="middle">GREAT! ✓ ROCKET</text>
+  </g>
+  <circle cx="330" cy="260" r="9" fill="#FFB100"/>
+  <circle cx="950" cy="250" r="7" fill="#EB5757"/>
+  <circle cx="420" cy="430" r="7" fill="#2F80ED"/>
+  <circle cx="880" cy="440" r="9" fill="#FFB100"/>
+  <circle cx="640" cy="240" r="6" fill="#EB5757"/>
+  <circle cx="760" cy="420" r="6" fill="#2F80ED"/>
+  <g id="platform-star">
+    <rect x="120" y="560" width="280" height="44" rx="22" fill="#1E8A4C"/>
+    <text x="260" y="590" font-family="Inter" font-size="30" font-weight="700" fill="#FFFFFF" text-anchor="middle">STAR</text>
+  </g>
+  <g id="platform-rocket">
+    <rect x="500" y="560" width="280" height="44" rx="22" fill="#1E8A4C"/>
+    <text x="640" y="590" font-family="Inter" font-size="30" font-weight="700" fill="#FFFFFF" text-anchor="middle">ROCKET</text>
+  </g>
+  <g id="platform-moon">
+    <rect x="880" y="560" width="280" height="44" rx="22" fill="#1E8A4C"/>
+    <text x="1020" y="590" font-family="Inter" font-size="30" font-weight="700" fill="#FFFFFF" text-anchor="middle">MOON</text>
+  </g>
+  <g id="mascot-jumped">
+    <circle cx="640" cy="495" r="55" fill="#FFB100"/>
+    <ellipse cx="620" cy="484" rx="8" ry="11" fill="#1B2A4A"/>
+    <ellipse cx="660" cy="484" rx="8" ry="11" fill="#1B2A4A"/>
+    <ellipse cx="640" cy="516" rx="16" ry="12" fill="#1B2A4A"/>
+  </g>
+  <text x="640" y="672" font-family="Inter" font-size="22" font-weight="600" fill="#1F5AB3" text-anchor="middle">You said it perfectly - keep going!</text>
+</svg>

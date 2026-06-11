@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="800" viewBox="0 0 1280 800">
+  <rect width="1280" height="800" fill="#CCEBFF"/>
+  <rect y="700" width="1280" height="100" fill="#27AE60"/>
+  <rect x="120" y="560" width="280" height="44" rx="22" fill="#1E8A4C"/>
+  <rect x="500" y="560" width="280" height="44" rx="22" fill="#1E8A4C"/>
+  <rect x="880" y="560" width="280" height="44" rx="22" fill="#1E8A4C"/>
+  <rect width="1280" height="800" fill="#1B2A4A" opacity="0.45"/>
+  <text x="24" y="34" font-family="Inter" font-size="14" fill="#FFFFFF">03 · Microphone permission (US-05)</text>
+  <g id="modal-mic">
+    <rect x="390" y="170" width="500" height="460" rx="32" fill="#FFFFFF"/>
+    <circle cx="640" cy="280" r="50" fill="#2F80ED"/>
+    <rect x="626" y="252" width="28" height="42" rx="14" fill="#FFFFFF"/>
+    <path d="M 616 284 a 24 24 0 0 0 48 0" fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round"/>
+    <rect x="637" y="306" width="6" height="12" fill="#FFFFFF"/>
+    <text x="640" y="395" font-family="Inter" font-size="30" font-weight="700" fill="#1B2A4A" text-anchor="middle">We need your microphone!</text>
+    <text x="640" y="432" font-family="Inter" font-size="20" fill="#8C949F" text-anchor="middle">The game listens to your voice -</text>
+    <text x="640" y="458" font-family="Inter" font-size="20" fill="#8C949F" text-anchor="middle">that is how you jump!</text>
+    <g id="btn-allow-mic">
+      <rect x="465" y="486" width="350" height="64" rx="32" fill="#27AE60"/>
+      <text x="640" y="527" font-family="Inter" font-size="24" font-weight="700" fill="#FFFFFF" text-anchor="middle">Allow microphone  🎤</text>
+    </g>
+    <text x="640" y="582" font-family="Inter" font-size="16" fill="#EB5757" text-anchor="middle">Blocked the mic by mistake? Ask a parent to enable it</text>
+    <text x="640" y="604" font-family="Inter" font-size="16" fill="#EB5757" text-anchor="middle">in Chrome - the game shows a help screen.</text>
+  </g>
+</svg>

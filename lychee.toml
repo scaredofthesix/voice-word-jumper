@@ -28,6 +28,9 @@ exclude = [
   # AI Studio app pages require an authenticated Google session and return
   # auth redirects to anonymous CI runners; verified manually in a browser.
   "^https://ai\\.studio/",
+  # Figma design files return 403 to anonymous clients until public link
+  # sharing is enabled on the file; verified manually in the Figma editor.
+  "^https://www\\.figma\\.com/design/",
 ]
 
 # Check links inside fenced code blocks too? Keep code-block URLs out to avoid

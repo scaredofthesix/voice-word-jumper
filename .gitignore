@@ -8,7 +8,7 @@ dist/
 build/
 .vite/
 
-# Environment / secrets — never commit real credentials
+# Environment / secrets - never commit real credentials
 .env
 .env.local
 .env.*.local
@@ -27,9 +27,8 @@ yarn-error.log*
 .DS_Store
 Thumbs.db
 
-# Local Claude Code settings (machine-specific)
-.claude/settings.local.json
+# Local tool settings (machine-specific)
+.claude/
 
 # Course material (kept out of the product repo)
 *.pdf
-team40-claude-agents.tar.gz
