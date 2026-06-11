@@ -1,6 +1,10 @@
 {
-  "name": "Voice Word Jumper",
-  "description": "A voice-controlled jumping game where you shout words to jump to corresponding platforms, featuring custom Web Audio sound synthesis and Chrome Web Speech recognition.",
-  "requestFramePermissions": ["microphone"],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+  "name": "English Voice Games",
+  "description": "An interactive voice-control learning portal filled with exciting games designed to help children practice and master English words. Speak to play, learn, and win!",
+  "requestFramePermissions": [
+    "microphone"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
 }

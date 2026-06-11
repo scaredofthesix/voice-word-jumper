@@ -1,71 +1,47 @@
-/**
- * @license
- * SPDX-License-Identifier: Apache-2.0
- */
+export type GameState = 'START_SCREEN' | 'PLAYING' | 'COLLIDED' | 'GAME_OVER';
 
-export type GameMode = 'practice' | 'arcade';
-
-export type GameTheme = 'neon' | 'forest' | 'retro' | 'sunset';
-
-export type WordCategory = 'space' | 'animals' | 'action' | 'cyber' | 'all';
-
-export interface ScoreEntry {
-  name: string;
-  score: number;
-  mode: GameMode;
-  category: WordCategory;
-  date: string;
-}
-
-export interface Platform {
-  id: string;
-  /** X coordinate in game units (0 to 100) */
-  x: number;
-  /** Y coordinate in game units (measured upwards from the starting bottom) */
-  y: number;
-  width: number;
+export interface WordData {
   word: string;
-  /** Type of platform: normal, moving (left-right), bouncy (high jump), disappearing */
-  type: 'normal' | 'moving' | 'bouncy' | 'cracking';
-  state: 'idle' | 'stepped' | 'cracked' | 'broken';
-  direction?: 1 | -1; // For moving platforms
-  speed?: number;
-  breakProgress?: number; // Visual countdown from 1.0 to 0.0 before breaking
-  minX?: number; // Minimum boundary for moving platforms
-  maxX?: number; // Maximum boundary for moving platforms
+  translation: string;
+  speakCount: number;
+  struggleCount: number;
 }
 
-export interface Particle {
+export interface WordCategory {
+  id: string;
+  name: string;
+  description: string;
+  icon: string;
+  words: Omit<WordData, 'speakCount' | 'struggleCount'>[];
+}
+
+export type Lane = 0 | 1 | 2; // Left, Center, Right
+
+export type TrackStyle = 'forest' | 'night' | 'desert' | 'city';
+
+
+export interface Obstacle {
+  id: string;
+  lane: Lane;
+  y: number; // 0 to 100 percentage or canvas pixels
+  speed: number;
+  type: 'truck' | 'police' | 'taxi' | 'sedan' | 'cone' | 'puddle';
+  color: string;
+}
+
+export interface Sparkle {
   id: string;
   x: number;
   y: number;
+  color: string;
   vx: number;
   vy: number;
-  color: string;
   size: number;
-  alpha: number;
   life: number;
   maxLife: number;
 }
 
-export type LanguageCode = 'en' | 'ru' | 'de';
-
-export interface GameSettings {
-  category: WordCategory;
-  mode: GameMode;
-  theme: GameTheme;
-  volume: number;
-  voiceThreshold: number; // Sensitivity for voice activity meter
-  pronunciationSpeed: number; // Speech synthesis speed
-  targetLanguage: LanguageCode;
-  knownLanguage: LanguageCode;
-}
-
-export interface GameStats {
-  score: number;
-  highestLevel: number;
-  climbHeight: number;
-  wordsSpoken: number;
-  streak: number;
-  highScores: ScoreEntry[];
+export interface VoiceStatus {
+  status: 'unsupported' | 'idle' | 'listening' | 'matched' | 'error';
+  message: string;
 }
