@@ -1,6 +1,6 @@
 # Prototype screens (SVG -> Figma)
 
-Six ready-made screens for the Assignment 2 interactive prototype of **Voice Word Games** (flagship: Voice Word Jumper). They cover the required flow **Home -> game selection -> main game (microphone interaction) -> results** and the MVP v1 stories: US-01, US-02, US-04, US-06, US-07, with US-03 and US-05 as in-screen states.
+Six ready-made screens for the Assignment 2 interactive prototype of **English Voice Games**. They cover the required flow **Home -> game selection -> main game (microphone interaction) -> results** and the MVP v1 stories: US-01, US-02, US-04, US-06, US-07, with US-03 and US-05 as in-screen states.
 
 Figma's free Starter plan does not limit manual editing, so the prototype is assembled by hand in ~5 minutes from these files.
 
@@ -21,7 +21,7 @@ Figma's free Starter plan does not limit manual editing, so the prototype is ass
 2. Drag all six `.svg` files from this folder onto the canvas at once. Each becomes a 1280×800 frame; arrange them left-to-right in numeric order and rename frames to `01 Home` ... `06 Results`.
 3. Switch the right panel to the **Prototype** tab and drag connection arrows:
    - `01 Home` -> PLAY button -> `02 Game selection`
-   - `02 Game selection` -> "PLAY" on the Voice Word Jumper card -> `03 Mic permission`; "← Home" -> `01 Home`
+   - `02 Game selection` -> "PLAY" on the Voice Racer card -> `03 Mic permission`; "← Home" -> `01 Home`
    - `03 Mic permission` -> "Allow microphone" -> `04 Game playing`
    - `04 Game playing` -> the ROCKET platform (simulates saying the word) -> `05 Game feedback`
    - `05 Game feedback` -> frame interaction **After delay 1500 ms** -> `06 Results`

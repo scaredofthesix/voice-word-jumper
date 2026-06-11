@@ -1,6 +1,6 @@
 # User Stories - Voice Word Games (Team 40)
 
-Product: a browser-based platform of **voice-controlled English word games for children**. A child must pronounce a target word correctly to trigger an in-game action - **voice is the only controller**, because children skip pronunciation tasks whenever another way to finish exists. Flagship game: **Voice Word Jumper** (currently Chrome-only).
+Product: a browser-based platform of **voice-controlled English word games for children**. A child must pronounce a target word correctly to trigger an in-game action - **voice is the only controller**, because children skip pronunciation tasks whenever another way to finish exists. Platform: **English Voice Games** (games: Voice Racer, Bubble Popper; currently Chrome-only).
 
 > Stable IDs (`US-01`, `US-02`, ...) must never be changed, reused, or reassigned. Removed stories keep their IDs and are preserved below. Requirement Status (Active / Removed) is independent of MoSCoW priority.
 
@@ -35,7 +35,7 @@ I want to pick a game from a small game-selection screen,
 so that I can play the game I find most fun today.
 
 ### Notes and constraints
-- For MVP v1 the only fully playable game is Voice Word Jumper; others may appear as "coming soon".
+- For MVP v1 the primary playable games are Voice Racer and Bubble Popper; additional games may appear as "coming soon".
 - Selection screen is a distinct interface in the prototype.
 
 ## US-03: See the target word clearly

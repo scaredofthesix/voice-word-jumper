@@ -1,6 +1,6 @@
-# Voice Word Jumper - Team 40
+# English Voice Games - Team 40
 
-A browser-based **voice-controlled English word game for children**. The child speaks the target word to make the character jump to the matching platform - **voice is the only controller**. Part of a planned platform of voice-controlled word games.
+A browser-based **voice-controlled English learning portal for children**. The child speaks the target word to trigger in-game actions - **voice is the only controller**. Features two games: Voice Racer (lane racing) and Bubble Popper, with more planned.
 
 - **Live MVP v0 (Google Cloud Run):** https://voice-word-jumper-316095696419.europe-west2.run.app/
 - **AI Studio app:** https://ai.studio/apps/fc8f058b-d06c-43b9-8ede-540d02401714
@@ -45,12 +45,14 @@ No API key is required - the game runs fully client-side. (`.env.example` lists 
 ├── package.json
 ├── vite.config.ts
 ├── src/
-│   ├── App.tsx             # app shell, Web Speech wiring, settings/stats
-│   ├── components/         # JumpGamePlay, VoiceStatus, DictionaryBar
-│   └── lib/                # audio.ts (Web Audio), vocabularies.ts (word matching)
+│   ├── App.tsx             # app shell, view routing (HUB / VOICE_RACER / BUBBLE_POPPER)
+│   ├── data.ts             # built-in word categories
+│   ├── types.ts            # shared TypeScript types
+│   ├── utils.ts            # speech synthesis, word matching helpers
+│   └── components/         # GameCanvas, BubblePopperGame, AudioVisualizer, CustomWordsManager
 └── reports/week2/          # Assignment 2 deliverables (see index)
 ```
 
 ## Attribution
 
-The application originates from the customer's (Danila Danko) Google AI Studio prototype of *Voice Word Jumper*. The original source files retain their `SPDX-License-Identifier: Apache-2.0` headers. Team 40 develops the product publicly under the **MIT** license at the repository level, with the customer's written consent to the public MIT-licensed development model (recorded in the [customer meeting summary](./reports/week2/customer-meeting-summary.md)). Apache-2.0 and MIT are compatible permissive licenses; original notices are preserved.
+The application originates from the customer's (Danila Danko) Google AI Studio prototype of *English Voice Games*. The original source files retain their `SPDX-License-Identifier: Apache-2.0` headers. Team 40 develops the product publicly under the **MIT** license at the repository level, with the customer's written consent to the public MIT-licensed development model (recorded in the [customer meeting summary](./reports/week2/customer-meeting-summary.md)). Apache-2.0 and MIT are compatible permissive licenses; original notices are preserved.
