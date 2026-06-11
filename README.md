@@ -53,6 +53,6 @@ No API key is required - the game runs fully client-side. (`.env.example` lists 
 └── reports/week2/          # Assignment 2 deliverables (see index)
 ```
 
-## Attribution
+## License
 
-The application originates from the customer's (Danila Danko) Google AI Studio prototype of *English Voice Games*. The original source files retain their `SPDX-License-Identifier: Apache-2.0` headers. Team 40 develops the product publicly under the **MIT** license at the repository level, with the customer's written consent to the public MIT-licensed development model (recorded in the [customer meeting summary](./reports/week2/customer-meeting-summary.md)). Apache-2.0 and MIT are compatible permissive licenses; original notices are preserved.
+This project is released under the [MIT License](./LICENSE).

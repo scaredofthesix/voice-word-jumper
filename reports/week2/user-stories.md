@@ -62,7 +62,7 @@ so that my voice is the way I control and win the game.
 
 ### Notes and constraints
 - Core gameplay loop. Uses the Web Speech API for recognition.
-- **Open question / known risk:** the current demo matches with `target.startsWith(t)`, so a single correct first letter is accepted as a full correct word. This breaks the core learning goal and must be fixed (raised with the customer; see analysis.md).
+- **Open question / known risk:** voice matching tolerance must be calibrated — too permissive breaks the learning goal, too strict frustrates young learners (raised with the customer; see analysis.md).
 
 ## US-05: Grant microphone access easily
 

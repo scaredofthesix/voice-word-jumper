@@ -1,7 +1,7 @@
 # MVP v0 Report - English Voice Games (Team 40)
 
 ## Purpose and description
-MVP v0 is the runnable, deployed technical foundation of **English Voice Games** - a browser-based voice-controlled learning portal for children. It is a React 19 + Vite + TypeScript application featuring two games (Voice Racer and Bubble Popper) controlled entirely by voice (Web Speech API). It originates from the customer's AI Studio prototype and is deployed publicly.
+MVP v0 is the runnable, deployed technical foundation of **English Voice Games** - a browser-based voice-controlled learning portal for children. It is a React 19 + Vite + TypeScript application featuring two games (Voice Racer and Bubble Popper) controlled entirely by voice (Web Speech API), and is deployed publicly.
 
 ## Deployment URL / runnable artifact
 - **Live deployment (Google Cloud Run):** https://voice-word-jumper-316095696419.europe-west2.run.app/

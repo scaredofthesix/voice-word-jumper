@@ -1,9 +1,9 @@
 # Customer Meeting Summary - Assignment 2 (Team 40)
 
-> Draft skeleton - completed after the review meeting with the customer (Danila Danko).
+> Draft skeleton - completed after the review meeting with the customer.
 
 - **Date:** _TODO_
-- **Participants / roles:** Customer - Danila Danko; Team 40 - _attendees_.
+- **Participants / roles:** Customer; Team 40 - _attendees_.
 - **Artifacts demonstrated:** user stories & MoSCoW priorities, initial proposed MVP v1 scope, prototype & interface artifacts.
 
 ## MIT-license consent
@@ -20,7 +20,7 @@ _TODO_
 
 ## Risks
 - Web Speech API is Chrome-only.
-- `target.startsWith(t)` matching flaw breaks pronunciation accuracy (open question raised with customer).
+- Voice recognition matching accuracy (open question raised with customer).
 
 ## Customer feedback
 _TODO_
