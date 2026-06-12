@@ -1,4 +1,4 @@
-# Voice Word Games - Team 40
+# Voice Games - Team 40
 
 A browser-based **voice-controlled English learning portal for children**. The child speaks the target word to trigger in-game actions - **voice is the only controller**. Features two games: Voice Racer (lane racing) and Voice Bubble Popper, with more planned.
 

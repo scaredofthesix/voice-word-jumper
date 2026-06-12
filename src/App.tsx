@@ -577,7 +577,7 @@ export default function App() {
                 </div>
               </div>
               <h1 className="text-3xl md:text-4xl font-black tracking-wider text-slate-900 uppercase drop-shadow-[0_3px_0_rgba(255,255,255,1)]">
-                VOICE WORD GAMES!
+                VOICE GAMES!
               </h1>
               <p className="text-xs text-slate-700 font-extrabold max-w-md mx-auto leading-relaxed">
                 Play English games with your voice! Match words, pop balloons, and win trophies!

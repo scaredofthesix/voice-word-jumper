@@ -1,7 +1,7 @@
-# MVP v0 Report - Voice Word Games (Team 40)
+# MVP v0 Report - Voice Games (Team 40)
 
 ## Purpose and description
-MVP v0 is the runnable technical foundation of **Voice Word Games** - a browser-based voice-controlled learning portal for children. It is a React 19 + Vite + TypeScript application featuring two games (Voice Racer and Voice Bubble Popper) controlled entirely by voice (Web Speech API). It runs fully client-side, with no backend.
+MVP v0 is the runnable technical foundation of **Voice Games** - a browser-based voice-controlled learning portal for children. It is a React 19 + Vite + TypeScript application featuring two games (Voice Racer and Voice Bubble Popper) controlled entirely by voice (Web Speech API). It runs fully client-side, with no backend.
 
 ## Deployment URL / runnable artifact
 - **Live deployment:** _TODO - public link will be added after the team deploys the new build._

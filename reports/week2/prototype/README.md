@@ -1,6 +1,6 @@
 # Prototype screens (SVG -> Figma)
 
-Six ready-made screens for the Assignment 2 interactive prototype of **Voice Word Games**. They cover the required flow **Home -> game selection -> main game (microphone interaction) -> results** and the MVP v1 stories: US-01, US-02, US-04, US-06, US-07, with US-03 and US-05 as in-screen states.
+Six ready-made screens for the Assignment 2 interactive prototype of **Voice Games**. They cover the required flow **Home -> game selection -> main game (microphone interaction) -> results** and the MVP v1 stories: US-01, US-02, US-04, US-06, US-07, with US-03 and US-05 as in-screen states.
 
 Figma's free Starter plan does not limit manual editing, so the prototype is assembled by hand in ~5 minutes from these files.
 

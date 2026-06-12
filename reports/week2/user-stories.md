@@ -1,6 +1,6 @@
-# User Stories - Voice Word Games (Team 40)
+# User Stories - Voice Games (Team 40)
 
-Product: a browser-based platform of **voice-controlled English word games for children**. A child must pronounce a target word correctly to trigger an in-game action - **voice is the only controller**, because children skip pronunciation tasks whenever another way to finish exists. Platform: **Voice Word Games** (games: Voice Racer, Voice Bubble Popper; currently Chrome-only).
+Product: a browser-based platform of **voice-controlled English word games for children**. A child must pronounce a target word correctly to trigger an in-game action - **voice is the only controller**, because children skip pronunciation tasks whenever another way to finish exists. Platform: **Voice Games** (games: Voice Racer, Voice Bubble Popper; currently Chrome-only).
 
 > Stable IDs (`US-01`, `US-02`, ...) must never be changed, reused, or reassigned. Removed stories keep their IDs and are preserved below. Requirement Status (Active / Removed) is independent of MoSCoW priority.
 

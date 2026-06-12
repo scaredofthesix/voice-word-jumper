@@ -1,5 +1,5 @@
 {
-  "name": "Voice Word Games",
+  "name": "Voice Games",
   "description": "An interactive voice-control learning portal filled with exciting games designed to help children practice and master English words. Speak to play, learn, and win!",
   "requestFramePermissions": [
     "microphone"
