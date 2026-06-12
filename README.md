@@ -33,7 +33,7 @@ npm run build
 npm run preview
 ```
 
-No API key is required - the game runs fully client-side. (`.env.example` lists an optional `GEMINI_API_KEY` inherited from the AI Studio template, but it is **not** used by the current game code.) Allow microphone access when prompted; voice recognition needs a secure context (`localhost` or HTTPS).
+No API key is required - the game runs fully client-side. Allow microphone access when prompted; voice recognition needs a secure context (`localhost` or HTTPS).
 
 ## Repository layout
 
