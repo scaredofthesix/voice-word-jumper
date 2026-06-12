@@ -9,4 +9,4 @@ COPY dist ./dist
 EXPOSE 8085
 
 # Запускаем дефолтный веб-сервер Python прямо внутри папки dist
-CMD ["python3", "-m", "http.server", "8085", "--directory", "dist"]
+CMD ["python3", "-m", "http.server", "8085", "--directory", "dist"] 
